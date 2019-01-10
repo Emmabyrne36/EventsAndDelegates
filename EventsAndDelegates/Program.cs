@@ -15,7 +15,6 @@ namespace EventsAndDelegates
             videoEncoder.VideoEncoded += messageService.OnVideoEncoded;
             videoEncoder.Encode(video);
 
-
             // More tests
             TestDelegate td = new TestDelegate("Original Name");
             td.NameChanged += OnNameChanged;

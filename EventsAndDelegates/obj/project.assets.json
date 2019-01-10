@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emma.byrne\\source\\repos\\EventsAndDelegates\\EventsAndDelegates\\EventsAndDelegates.csproj",
+      "projectUniqueName": "C:\\Users\\emma.byrne\\Downloads\\EventsAndDelegates\\EventsAndDelegates\\EventsAndDelegates.csproj",
       "projectName": "EventsAndDelegates",
-      "projectPath": "C:\\Users\\emma.byrne\\source\\repos\\EventsAndDelegates\\EventsAndDelegates\\EventsAndDelegates.csproj",
+      "projectPath": "C:\\Users\\emma.byrne\\Downloads\\EventsAndDelegates\\EventsAndDelegates\\EventsAndDelegates.csproj",
       "packagesPath": "C:\\Users\\emma.byrne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emma.byrne\\source\\repos\\EventsAndDelegates\\EventsAndDelegates\\obj\\",
+      "outputPath": "C:\\Users\\emma.byrne\\Downloads\\EventsAndDelegates\\EventsAndDelegates\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
