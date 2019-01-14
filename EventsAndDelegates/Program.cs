@@ -1,10 +1,45 @@
-﻿using System;
+﻿using EventsAndDelegates.MathsEvents;
+using System;
+using System.Collections.Generic;
 
 namespace EventsAndDelegates
 {
     class Program
     {
         static void Main(string[] args)
+        {
+            // OriginalDelegateTutorial();
+            // MoreDelegates();
+            MathsDelegates();
+
+            Console.ReadLine();
+        }
+
+        private static void MathsDelegates()
+        {
+            MathsService service = new MathsService();
+            new List<IMathsPerformedService>
+            {
+                new LoggingService(), new NotificationService()
+            }.ForEach(serv => service.MathsPerformed += serv.OnMathsPerformed);
+
+            service.AddNumbers(5.79, 13.2);
+            service.MultiplyNumbers(6.29, 2.05);
+        }
+
+        private static void MoreDelegates()
+        {
+            // More tests
+            TestDelegate td = new TestDelegate("Original Name");
+            td.NameChanged += OnNameChanged;
+            td.AfterChange += OnNameChanged2;
+            td.Name = "Mary";
+            td.AfterChange -= OnNameChanged2;
+            td.Name = "John";
+            td.Name = "Emily";
+        }
+
+        private static void OriginalDelegateTutorial()
         {
             var video = new Video() { Title = "Video 1" };
             var videoEncoder = new VideoEncoder(); // publisher
@@ -14,17 +49,6 @@ namespace EventsAndDelegates
             videoEncoder.VideoEncoded += mailService.OnVideoEncoded; // this is a pointer to the OnVideoEncoded method in the MailService class
             videoEncoder.VideoEncoded += messageService.OnVideoEncoded;
             videoEncoder.Encode(video);
-
-            // More tests
-            TestDelegate td = new TestDelegate("Original Name");
-            td.NameChanged += OnNameChanged;
-            td.AfterChange += OnNameChanged2;
-            td.Name = "Emma";
-            td.AfterChange -= OnNameChanged2;
-            td.Name = "Miller";
-            td.Name = "Sooty";
-
-            Console.ReadLine();
         }
 
         private static void OnNameChanged(object sender, NameChangedEventArgs args)

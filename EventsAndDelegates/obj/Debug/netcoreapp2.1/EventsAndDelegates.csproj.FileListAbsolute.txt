@@ -9,3 +9,14 @@ C:\Users\emma.byrne\source\repos\EventsAndDelegates\EventsAndDelegates\obj\Debug
 C:\Users\emma.byrne\source\repos\EventsAndDelegates\EventsAndDelegates\obj\Debug\netcoreapp2.1\EventsAndDelegates.dll
 C:\Users\emma.byrne\source\repos\EventsAndDelegates\EventsAndDelegates\obj\Debug\netcoreapp2.1\EventsAndDelegates.pdb
 C:\Users\emma.byrne\source\repos\EventsAndDelegates\EventsAndDelegates\obj\Debug\netcoreapp2.1\EventsAndDelegates.csprojAssemblyReference.cache
+C:\Users\emma.byrne\Downloads\EventsAndDelegates\EventsAndDelegates\bin\Debug\netcoreapp2.1\EventsAndDelegates.deps.json
+C:\Users\emma.byrne\Downloads\EventsAndDelegates\EventsAndDelegates\bin\Debug\netcoreapp2.1\EventsAndDelegates.runtimeconfig.json
+C:\Users\emma.byrne\Downloads\EventsAndDelegates\EventsAndDelegates\bin\Debug\netcoreapp2.1\EventsAndDelegates.runtimeconfig.dev.json
+C:\Users\emma.byrne\Downloads\EventsAndDelegates\EventsAndDelegates\bin\Debug\netcoreapp2.1\EventsAndDelegates.dll
+C:\Users\emma.byrne\Downloads\EventsAndDelegates\EventsAndDelegates\bin\Debug\netcoreapp2.1\EventsAndDelegates.pdb
+C:\Users\emma.byrne\Downloads\EventsAndDelegates\EventsAndDelegates\obj\Debug\netcoreapp2.1\EventsAndDelegates.csprojAssemblyReference.cache
+C:\Users\emma.byrne\Downloads\EventsAndDelegates\EventsAndDelegates\obj\Debug\netcoreapp2.1\EventsAndDelegates.csproj.CoreCompileInputs.cache
+C:\Users\emma.byrne\Downloads\EventsAndDelegates\EventsAndDelegates\obj\Debug\netcoreapp2.1\EventsAndDelegates.AssemblyInfoInputs.cache
+C:\Users\emma.byrne\Downloads\EventsAndDelegates\EventsAndDelegates\obj\Debug\netcoreapp2.1\EventsAndDelegates.AssemblyInfo.cs
+C:\Users\emma.byrne\Downloads\EventsAndDelegates\EventsAndDelegates\obj\Debug\netcoreapp2.1\EventsAndDelegates.dll
+C:\Users\emma.byrne\Downloads\EventsAndDelegates\EventsAndDelegates\obj\Debug\netcoreapp2.1\EventsAndDelegates.pdb
