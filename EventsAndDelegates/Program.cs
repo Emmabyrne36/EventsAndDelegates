@@ -8,8 +8,8 @@ namespace EventsAndDelegates
     {
         static void Main(string[] args)
         {
-            // OriginalDelegateTutorial();
-            // MoreDelegates();
+            VideoEncoderDelegates();
+            NameChangedDelegates();
             MathsDelegates();
 
             Console.ReadLine();
@@ -27,10 +27,9 @@ namespace EventsAndDelegates
             service.MultiplyNumbers(6.29, 2.05);
         }
 
-        private static void MoreDelegates()
+        private static void NameChangedDelegates()
         {
-            // More tests
-            TestDelegate td = new TestDelegate("Original Name");
+            NameChangedDelegate td = new NameChangedDelegate("Original Name");
             td.NameChanged += OnNameChanged;
             td.AfterChange += OnNameChanged2;
             td.Name = "Mary";
@@ -39,7 +38,7 @@ namespace EventsAndDelegates
             td.Name = "Emily";
         }
 
-        private static void OriginalDelegateTutorial()
+        private static void VideoEncoderDelegates()
         {
             var video = new Video() { Title = "Video 1" };
             var videoEncoder = new VideoEncoder(); // publisher

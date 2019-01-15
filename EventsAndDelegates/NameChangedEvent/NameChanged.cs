@@ -1,9 +1,9 @@
 ﻿using System;
-using static EventsAndDelegates.Test;
+using static EventsAndDelegates.NameChanged;
 
 namespace EventsAndDelegates
 {
-    class Test
+    class NameChanged
     {
         // This is a more verbose way of creating a delegate, can just use the event handler to reduce amount of code written
         // Create a delegate
@@ -12,9 +12,9 @@ namespace EventsAndDelegates
        // public delegate void AfterNameChangedDeleate(string message);
     }
 
-    class TestDelegate
+    class NameChangedDelegate
     {
-        public event NameChangedDelegate NameChanged;
+        public event NameChanged.NameChangedDelegate NameChanged;
         public event EventHandler<AfterNameChangedArgs> AfterChange;
         private string _name;
         public string Name
@@ -40,13 +40,13 @@ namespace EventsAndDelegates
                     NameChangedEventArgs args = new NameChangedEventArgs() { OldValue = oldValue, NewValue = value };
                     NameChanged?.Invoke(this, args);
                     
-                    AfterChange?.Invoke(this, new AfterNameChangedArgs() { Message = "Ahoy" });
+                    AfterChange?.Invoke(this, new AfterNameChangedArgs() { Message = "The name has just been changed!" });
 
                 }
             }
         }
 
-        public TestDelegate(string name)
+        public NameChangedDelegate(string name)
         {
             _name = name;
         }
